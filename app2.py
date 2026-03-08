@@ -5,7 +5,7 @@ import pickle
 # ---------------- LOAD MODEL + ENCODERS ----------------
 @st.cache_resource
 def load_files():
-    model = pickle.load(open("Model.sav", "rb"))
+    model = pickle.load(open("XGModel.sav", "rb"))
 
     ohn = pickle.load(open("Occupation_Onehot.sav", "rb"))
     ohn1 = pickle.load(open("Marital_status_Onehot.sav", "rb"))
