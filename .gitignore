@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local datasets and sensitive exports
+account_data.csv
+*.sqlite
+*.db
+
+# Trained model artifacts (provide separately when needed)
+*.sav
+*.pkl
+*.pickle
+
+# Local settings
+.env
+.env.*
+!.env.example
